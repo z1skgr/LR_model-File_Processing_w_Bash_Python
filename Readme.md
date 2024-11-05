@@ -1,5 +1,5 @@
 # Software development tools
-> File processing in scirpts and python
+> File processing in scripts and python
 
 ## Parts
 * [Bash](Bash/README.md)
