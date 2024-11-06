@@ -1,7 +1,0 @@
-1.	 Man City United	 6	 3-0
-2.	 Mpa	 3	 2-1
-3.	 Russia	 3	 2-4
-4.	 Spain Magiorca	 3	 1-0
-5.	 Spa	 1	 2-3
-6.	 Spain	 1	 1-2
-7.	 Man City & United	 0	 1-2
