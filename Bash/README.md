@@ -13,10 +13,10 @@
 ### Regr
 
 
-| $$ sum_x = \sum_{i=0}^{length-1}X[i]$$        | $$sum_y = \sum_{i=0}^{length-1}Y[i]$$                                                                 | $$ sum_{xy} = \sum_{i=0}^{length-1}X[i]Y[i] $$  |
+| $$sum_x = \sum_{i=0}^{length-1}X[i]$$        | $$sum_y = \sum_{i=0}^{length-1}Y[i]$$                                                                 | $$sum_{xy} = \sum_{i=0}^{length-1}X[i]Y[i]$$  |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| $$sum_{x^2} = \sum_{i=0}^{length-1}(X[i])^2$$ | $$ a = \frac{length \cdot sum_{xy} - sum_x \cdot sum_y}{length \cdot sum_{x^2} - sum_x \cdot sum_x}$$ | $$ b = \frac{ sum_{y}-a \cdot sum_x }{length}$$ |
-|                                               | $$ err = \sum_{i=0}^{length-1}(Y[i] - (aX[i]+b))^2$$                                                  |                                                 |
+| $$sum_{x^2} = \sum_{i=0}^{length-1}(X[i])^2$$ | $$a = \frac{length \cdot sum_{xy} - sum_x \cdot sum_y}{length \cdot sum_{x^2} - sum_x \cdot sum_x}$$ | $$b = \frac{ sum_{y}-a \cdot sum_x }{length}$$ |
+|                                               | $$err = \sum_{i=0}^{length-1}(Y[i] - (aX[i]+b))^2$$                                                  |                                                 |
 
 Calculate the linear regression parameters that minimize the total square err error of the approach 
 * Accepts as program parameters a list of files. 
